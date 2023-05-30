@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+     <h1>{{ article.name }}</h1>
+    <div>{{ article.body }}</div>
+    <div><h2><a href="{% url 'comment_create' article.id %}">Оставить комментарий</a></h2></div>
+{% endblock %}
+

@@ -10,6 +10,8 @@ packages = [{include = "hexlet_django_blog"}]
 python = "^3.8"
 django = "^4.2.1"
 django-admin = "^2.0.2"
+dotenv = "^0.0.5"
+python-dotenv = "^1.0.0"
 
 
 [build-system]
